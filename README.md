@@ -6,7 +6,7 @@ The code is primarily focused on self-supervised representation learning for mam
 
 ## Repository contents
 
-### `train_medjepa_mg_v4.py`
+### `train_medjepa_mg_v5.py`
 
 Main training script for mammography-based MedJEPA experiments.
 
@@ -29,7 +29,7 @@ Main features:
 
 Augmentation and preprocessing configuration used by the mammography training script.
 This file defines the image preprocessing and augmentation pipeline used during training. It includes settings for resizing, foreground cropping, intensity normalization, geometric augmentations, contrast/brightness changes, and masking of possible image-corner watermarks or scanner annotations.
-The config is read by `train_medjepa_mg_v4.py` and can be modified without changing the training code.
+The config is read by `train_medjepa_mg_v5.py` and can be modified without changing the training code.
 
 ### `run_medjepa_linear_probe_report.py`
 
